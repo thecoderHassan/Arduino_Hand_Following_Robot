@@ -4,7 +4,7 @@ This project is a starting sketch for the robot shown in the photos: an Arduino 
 
 ## Important note about the photos
 
-The photos show the overall components, but the Arduino pin labels and individual wire endpoints are obscured by the wiring. I **cannot confirm the actual pin-to-pin connections from the photos alone**. The sketch therefore uses the suggested wiring below. Match the physical wiring to this table before uploading, or edit the pin constants in `robot_car.ino` to match your existing wiring.
+**Match the physical wiring to this table before uploading, or edit the pin constants in `robot_car.ino` to match your existing wiring**
 
 Important limitation: an ultrasonic sensor measures distance; it cannot identify a hand specifically. This is basic target-following, so it may follow another object at a similar distance. Keep the hand as the closest object in view.
 
